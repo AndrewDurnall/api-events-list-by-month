@@ -1,0 +1,77 @@
+body {
+  font-family: 'Cinzel', 'Playfair Display', 'EB Garamond', 'Libre Baskerville', 'Lora', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.event-list {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+ul {
+  margin: 5px 0px 5px 0px;
+  padding: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.event-description {
+  margin-top: 5px;
+}
+
+#header {
+  display: flex;
+}
+h1 {
+  text-align: left;
+  margin: 0px 5px 5px 0px;
+  font-size: 1.45em;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 1.3em;
+}
+
+h3 {
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+h4 {
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+  font-size: 1em;
+}
+
+#eventsList{
+  display: block;
+}
+
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+#eventItem{
+  list-style: none;
+  padding: 0;
+  border: 2px solid black;
+  padding: 5px;
+  overflow: hidden;
+}
+footer p{
+  text-align: center;
+}
